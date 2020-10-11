@@ -1,2 +1,9 @@
 #SKEL-PWN
 This is a tiny script to setup a base exploit in python3 for common pwn CTF challenges
+
+#USAGE:
+Just drop it to you prefered path, and the execute:
+
+$skel <target binary>
+
+This will create a script called "xpl.py" with the provided binary as the target ELF ready to execute local,on GDB or remote
